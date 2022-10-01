@@ -1,3 +1,4 @@
+
 nav a{
     text-decoration: none;
     color: yellow;
@@ -5,6 +6,30 @@ nav a{
 }
 
 body {
+    margin-left: 10px;
     background-color: orangered;
     margin: 10px;
+}
+header {
+    text-align: center;
+    background-color: green;
+}
+
+main {
+    background-color: red;
+    text-align: left;2
+}
+
+#section1 {
+    color: yellow;
+}
+
+#section2 {
+    background-color: yellow;
+    color: red;
+}
+
+footer {
+    background-color: gray;
+    color: blue;
 }
