@@ -12,7 +12,7 @@
                     let usersName = prompt("What is your name?")
                     console.log("User said: " + usersName);
                     
-                    document.write("Hello " + usersName + ", I hope you like Mexican food!")
+                    document.write("Hello, " + usersName + "! I hope you like Mexican food!")
 
                     function myFunction() {
                      confirm("Do you want to visit?");
@@ -26,27 +26,28 @@
             </header>
             <main>
                 <section id="section1">
-                    <div></div>
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/1a/9c/2b/photo1jpg.jpg" alt="">
-                    <p>My Favorite restaurant is La Cazuela. It is located in Lawrenceville, GA.</p>
+                        <h2> La Cazuela </h2>
+                        <p id= "s1p">This fun little restaurant is La Cazuela, located in downtown Lawrenceville, GA. My partner and I found this small gem completely by accident while we were strolling around town. The distinct mexican decor displayed inside, coupled with an authentic playlist of rich hispanic music gives it a nice "hole in the wall" vibe. Most of the customers that visit are locals so you instantly feel that chill neighborhood vibe too. My favorite thing about this restaurant, of course, is that the food always comes out quick and is always delicious! The prices are surprisingly affordable considering the quality and portion sizes. La Cazuela is one of my top picks for anyone who finds themselves visiting Atlanta, Georgia! </p>
                     <button onclick="myFunction()">Location</button>
                 </section>
-                <section id="section2">
-                    <section class="bottom">
+                <section id="section2">                                      
+                    <section id= "topleft" class="bottom">
                         <img src="https://betostacos.com/wp-content/uploads/2020/11/2.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc.</p>
+                        <p> THE undisputed taco!! This taco is the tacos of all tacos, I am claiming it confidently and noone can change my mind. First off, this taco is huge. It is filled with your choice of gounded beef, and shredded or grilled chicken. It also comes with lettuce, tomatoes, & sour cream. The crust is actually a tortilla that is molded to be in th shape and is both flakey and crunchy! 10/10 </p>
                     </section>
-                    <section class="bottom">
+                    <section id= "topright" class="bottom">
                         <img src="https://live.staticflickr.com/3620/3620800784_a601f12c2b_b.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc.</p>
+                        <p>This dish is a close second to the Crazy Taco. It is a big tortilla filled with beans and your choice of chicken, brisket or ground beef, fried golden brown and covered with cheese dip. It is also served with rice, lettuce, tomatoes, guacamole and sour cream! </p>
                     </section>
-                    <section class="bottom">
-                        <img src="https://toast-local-nyc3-production.nyc3.cdn.digitaloceanspaces.com/restaurants/38bc5c85-5eed-47d2-a2bc-d14df39ac38c/nachos-superiores-menuitem-332733-999.webp" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc.</p>
-                    </section>
-                    <section class="bottom">
+                    <section id= "botleft" class="bottom">
                         <img src="https://popmenucloud.com/rnsawgjd/5c484178-eff6-4037-84b3-92962cdbe3fc.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc.</p>
+                        <p>La Cazuelas quesadillas are my third dish of choice if I'm feeling like grabbing a quick lunch. It comes in a hot folded tortilla that is divided into four (4) slices with chicken, beef, or cheese inside. The quesadilla also comes with an assortment of sauces and guacamole.  
+                        </p>
+                    </section>
+                    <section id = "botright" class="bottom">
+                        <img src="https://popmenucloud.com/rnsawgjd/5c484178-eff6-4037-84b3-92962cdbe3fc.jpg" alt="">
+                        <p>The tres leches flan is my all time favorite dessert! This desert may be small, but it is packed with an rich, sweet and savory caramelized and tres leches flavor. Every little bit tastes like a piece of heaven, in my opinion of course. </p>
                     </section>
                 </section>  
             </main>
@@ -56,14 +57,14 @@
                     console.log ("User said: " + usersAnswer);            
                     
                     if(usersAnswer == "Yes"){
-                        document.write("Yay! Me too!");
+                        document.write("All that food looked great, right!?");
                     }   else if (usersAnswer == "No"){
-                        document.write("That's okay, more for me!");
+                        document.write("I hope after seeing this list, you'll reconsider!");
                     }   else {
                         document.write("That's not the answer I was looking for...");
                     }      
-                </script>               
-                <p> &copy;Anthony Lopez</p> 
+                </script>
+                <p> &copy;Anthony Lopez 2022</p> 
             </footer>
         </body>
 </html>
