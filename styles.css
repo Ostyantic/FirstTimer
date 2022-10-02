@@ -15,13 +15,28 @@ header {
     background-color: green;
 }
 
-main {
-    background-color: red;
-    text-align: left;2
-}
+/* main {
+
+} */
 
 #section1 {
+    background-color: red;
     color: yellow;
+}
+
+#section1 img{
+  
+  display: inline-block;
+  /* margin-right: auto; */
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 50%;
+  border-radius: 10%;
+}
+
+#section1 p {
+    max-width: 20%;
+    display: inline-block;
 }
 
 #section2 {
@@ -29,7 +44,28 @@ main {
     color: red;
 }
 
+header {
+    margin-bottom: 20px;
+}
+
+#section1, #section2, footer {
+    margin: 10px;
+}
+.s2p {
+    border-radius: 15%;
+}
+
 footer {
     background-color: gray;
     color: blue;
+}
+
+.bottom {
+    border: 5px solid purple;
+    display: inline-block;
+    width: 40%;
+}
+
+.bottom img {
+    max-width: 90%;
 }
