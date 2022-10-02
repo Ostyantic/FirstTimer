@@ -15,10 +15,6 @@ header {
     background-color: green;
 }
 
-/* main {
-
-} */
-
 #section1 {
     background-color: red;
     color: yellow;
@@ -27,7 +23,6 @@ header {
 #section1 img{
   
   display: inline-block;
-  /* margin-right: auto; */
   padding-left: 10px;
   padding-top: 10px;
   width: 50%;
@@ -40,7 +35,7 @@ header {
 }
 
 #section2 {
-    background-color: yellow;
+    background-color: goldenrod;
     color: red;
 }
 

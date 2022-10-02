@@ -8,6 +8,16 @@
         <body>
             <header>
                 <h1> Anthony's Favorite Restaurant </h1>
+                <script>
+                    let usersName = prompt("What is your name?")
+                    console.log("User said: " + usersName);
+                    
+                    document.write("Hello " + usersName + ", I hope you like Mexican food!")
+
+                    function myFunction() {
+                     confirm("Do you want to visit?");
+}
+               </script>
                 <nav>
                     <a href="https://lacazuela.com/menu/">Menu</a>
                     <a href="https://www.google.com/maps/dir/33.9491324,-84.0871028/la+cazuela/@33.9579417,-84.1117952,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88f5bef14902ee4d:0xe0fc928f0b3faebb!2m2!1d-83.9892154!2d33.9561617">Location</a>
@@ -19,6 +29,7 @@
                     <div></div>
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/10/1a/9c/2b/photo1jpg.jpg" alt="">
                     <p>My Favorite restaurant is La Cazuela. It is located in Lawrenceville, GA.</p>
+                    <button onclick="myFunction()">Location</button>
                 </section>
                 <section id="section2">
                     <section class="bottom">
@@ -40,7 +51,19 @@
                 </section>  
             </main>
             <footer>
-                <p> &copy;Anthony Lopez</p>                
+                <script>
+                    let usersAnswer = prompt("Do you like Mexican food?");
+                    console.log ("User said: " + usersAnswer);            
+                    
+                    if(usersAnswer == "Yes"){
+                        document.write("Yay! Me too!");
+                    }   else if (usersAnswer == "No"){
+                        document.write("That's okay, more for me!");
+                    }   else {
+                        document.write("That's not the answer I was looking for...");
+                    }      
+                </script>               
+                <p> &copy;Anthony Lopez</p> 
             </footer>
         </body>
 </html>
