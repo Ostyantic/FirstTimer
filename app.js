@@ -33,7 +33,7 @@ function likeFood() {
 }
 
 function myRating(){
-    let rating = prompt("From 1 to 5, how many tacos do you feel this page deserves?");
+    let rating = prompt("From 1 to 5, how many tacos (stars) do you feel this page deserves?");
     for (let i = 0; i < rating; i++){
         document.write("<img class='little-taco' src='https://www.pngitem.com/pimgs/m/11-117558_pizza-clipart-kawaii-taco-cute-taco-hd-png.png' alt='cute taco' />" + (i + 1));
     }
@@ -42,7 +42,7 @@ function myRating(){
 function tacoTuesday(){
     let response = prompt("Which day of the week is the best day for tacos?");
     // response = response.toLowerCase();
-    while (response !== 'tuesday'){
+    while (response !== 'Tuesday'){
         response = prompt("Nope! Please try again.");
     }
 }
